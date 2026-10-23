@@ -16,7 +16,7 @@ function setLanguage(language) {
   button.textContent = chinese ? 'English' : 'Chinese';
   button.setAttribute('aria-label', chinese ? 'Switch to English' : 'Switch to Chinese');
   document.title = chinese ? '杨尚同教授 | 岩石力学与地下能源' : 'Prof Shangtong Yang | Rock Mechanics & Subsurface Energy';
-  if (document.body.dataset.page === 'publications') document.title = chinese ? '近三年期刊论文（2024–2026） | 杨尚同教授' : 'Recent 3-year journal publications (2024-2026) | Prof Shangtong Yang';
+  if (document.body.dataset.page === 'publications') document.title = chinese ? '近期发表的期刊论文 | 杨尚同教授' : 'Recent journal publications | Prof Shangtong Yang';
   if (document.body.dataset.page === 'service') document.title = chinese ? '学术兼职 | 杨尚同教授' : 'Academic Service | Prof Shangtong Yang';
   if (document.body.dataset.page === 'facilities') document.title = chinese ? '科研设施 | 杨尚同教授' : 'Facilities | Prof Shangtong Yang';
   try { localStorage.setItem('yang-language', language); } catch {}

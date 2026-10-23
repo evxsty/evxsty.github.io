@@ -31,3 +31,7 @@ header{flex-wrap:wrap}header nav{order:3;width:100%;margin:0;justify-content:fle
 .section-home-action{display:flex;justify-content:flex-end;clear:both;width:100%;margin-top:32px}.section-home-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:9px 17px;border:1px solid var(--blue);border-radius:4px;color:var(--blue);background:#fff;font-size:14px;line-height:1.5;text-decoration:none}.section-home-button:hover{background:var(--blue);color:#fff;text-decoration:none}.section-home-button:focus-visible{outline:3px solid var(--navy);outline-offset:4px}
 
 .photo-pending{display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:14px}
+
+.alumni-photo-link{display:block}.alumni-photo-link:focus-visible{outline:3px solid var(--blue);outline-offset:4px}.alumni-card .student-bio{overflow-wrap:anywhere}
+
+.alumni-list{padding-left:26px;margin:0;line-height:1.8}.alumni-list li{padding:8px 0 8px 6px;overflow-wrap:anywhere}.alumni-list li::marker{color:var(--blue);font-weight:600}
