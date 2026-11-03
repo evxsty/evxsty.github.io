@@ -35,3 +35,9 @@ header{flex-wrap:wrap}header nav{order:3;width:100%;margin:0;justify-content:fle
 .alumni-photo-link{display:block}.alumni-photo-link:focus-visible{outline:3px solid var(--blue);outline-offset:4px}.alumni-card .student-bio{overflow-wrap:anywhere}
 
 .alumni-list{padding-left:26px;margin:0;line-height:1.8}.alumni-list li{padding:8px 0 8px 6px;overflow-wrap:anywhere}.alumni-list li::marker{color:var(--blue);font-weight:600}
+
+/* Keep the identity, language selector and navigation visible while scrolling. */
+header{position:sticky;top:0;z-index:100;background:#fff}
+html{scroll-padding-top:calc(var(--site-header-height,180px) + 16px)}
+.skip{z-index:110}
+
